@@ -17,10 +17,10 @@ For Windows, the repository comes with a Visual Studio 2022 project file which y
 
 # C++ interface
 As said before, the C++ interface was generated automatically, to be used by the (also automatically-generated)
-[Julia bindings for ConicBundle](../ConicBundle.jl/). You can find the Python script for the generation in the Julia bindings
-repository in [`src/cppinterface/adapter.py`](../ConicBundle.jl/src/cppinterface/adapter.py). Note that it requires the `regex`
-package, which can be easily installed using pip. This will recreate the corresponding C++ files in `cppinterface` if the
-folder structure is set up as in the `ConicBundle.jl` package.
+[Julia bindings for ConicBundle](../ConicBundle.jl/). You can find the Python script for the generation the
+[`cppinterface`](cppinterface/adapter.py) folder: just run the Python script from this subfolder. Make sure that the
+`ConicBundle.jl` package exists on the same level as this package, so that its headers are also replaced accordingly.
+Note that Python package `regex` is required, which can be easily installed using pip.
 
 # License
 ConicBundle is licensed under GPL v3.0 or later.
