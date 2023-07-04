@@ -3,3 +3,9 @@ lib/
 x64/
 Debug/
 Release/
+OPTI.*/
+DEBU.*/
+t_c
+t_cxx
+t_mat
+mc_triangle
