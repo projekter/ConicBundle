@@ -162,7 +162,7 @@ lib/libcb.a:   	include/CBconfig.hxx $(OBJCBLIB)
 		@if [ ! -d lib ]; then mkdir lib; fi
 	        $(AR) $(ARFLAGS) lib/libcb.a $(OBJCBLIB)
 		$(RANLIB) lib/libcb.a
-		$(CXX) -shared -o ../bin/ConicBundle.so $(OBJCBLIB)
+		$(CXX) -shared -o lib/ConicBundle.so $(OBJCBLIB)
 
 clean:
 		-rm -rf OPTI.* DEBU.* $(TARGET)

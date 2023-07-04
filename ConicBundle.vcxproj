@@ -73,7 +73,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(ProjectDir)include;$(ProjectDir)Matrix;$(ProjectDir)Tools;$(ProjectDir)CBsources;$(IncludePath)</IncludePath>
-    <OutDir>$(SolutionDir)..\bin\</OutDir>
+    <OutDir>$(SolutionDir)lib\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(ProjectDir)include;$(ProjectDir)Matrix;$(ProjectDir)Tools;$(ProjectDir)CBsources;$(IncludePath)</IncludePath>
